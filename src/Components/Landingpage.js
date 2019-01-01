@@ -19,12 +19,16 @@ class Landingpage extends Component {
                 <a href='https://github.com/allenjustinblanco' target='_blank' rel='noopener noreferrer'>
                   <i class="fab fa-github"></i>
                 </a>
-                <a href='https://www.instagram.com/allenjustin_/?hl=en' target='_blank' rel='noopener noreferrer'>
-                  <i class="fab fa-instagram"></i>
-                </a>
               </div>
             </div>
           </Cell>
+          <div style={{width: '80%', margin: 'auto'}}>
+            <Grid>
+                <Cell col={4}></Cell>
+                <Cell col={4}>4</Cell>
+                <Cell col={4}></Cell>
+            </Grid>
+            </div>
         </Grid>
       </div>
     )
