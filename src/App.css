@@ -10,7 +10,6 @@ a.navbar-brand {
 }
 a.navbar-brand:hover {
   color: grey !important;
-  text-decoration: line-through;
 }
 .Landing-grid {
   text-align: center;
@@ -32,11 +31,18 @@ a.navbar-brand:hover {
   font-style: italic;
 }
 .jumbotron {
-  text-align: center;
   background-color: black;
   color: white;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 15%;
+}
+a {
+  color: white !important;
 }
 a:hover {
-  color: grey;
+  color: cyan !important;
   text-decoration: none;
 }
