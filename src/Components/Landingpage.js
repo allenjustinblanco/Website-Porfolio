@@ -5,7 +5,7 @@ import { Jumbotron } from 'react-bootstrap'
 class Landingpage extends Component {
   render() {
     return (
-      <Jumbotron >
+      <Jumbotron>
         <h3 className='Quicksand'>Full Stack Developer</h3>
         <p className='cursive'>“There are three responses to a piece of design – yes, no, and WOW! Wow is the one to aim for." - Milton Glaser</p>
         <div className='social-links'>
