@@ -11,7 +11,7 @@ class Projects extends Component {
     toggleCategories() {
       if(this.state.activeTab === 0) {
         return (
-          <div>
+          <div className='cardBody'>
           <div className="card">
             <Card shadow={0} style={{width: '320px', height: '320px', margin: 'auto'}}>
               <CardTitle expand style={{color: 'white', background: 'url(https://picsum.photos/400/300/?random) no-repeat white'}}></CardTitle>

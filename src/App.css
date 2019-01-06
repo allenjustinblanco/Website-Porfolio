@@ -9,7 +9,12 @@ a.navbar-brand {
   font-family: Charm, cursive;
 }
 a.navbar-brand:hover {
-  color: grey !important;
+  color: cyan !important;
+  font-size: 19px;
+}
+.cardBody {
+  display: inline;
+  justify-content: center;
 }
 .Landing-grid {
   text-align: center;
@@ -47,10 +52,39 @@ a.navbar-brand:hover {
   margin: 1%;
   display: inline-block;
 }
+@@keyframes colorChange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+@-webkit-keyframes colorChange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+@-moz-keyframes colorChange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+@-o-keyframes colorChange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
 a {
   color: white !important;
+  font-size: 15px;
 }
 a:hover {
-  color: cyan !important;
   text-decoration: none;
+  font-size: 16px;
+  -webkit-animation: colorChange 5s infinite; /* Safari 4+ */
+  -moz-animation:    colorChange 5s infinite; /* Fx 5+ */
+  -o-animation:      colorChange 5s infinite; /* Opera 12+ */
+  animation:         colorChange 5s infinite; /* IE 10+, Fx 29+ */
 }
