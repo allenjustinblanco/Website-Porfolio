@@ -10,7 +10,7 @@ a.navbar-brand {
 }
 a.navbar-brand:hover {
   color: cyan !important;
-  font-size: 19px;
+  font-size: 20px;
 }
 .cardBody {
   display: inline;
@@ -55,25 +55,25 @@ a.navbar-brand:hover {
 @@keyframes colorChange {
   0%   {color: red;}
   25%  {color: yellow;}
-  50%  {color: blue;}
+  50%  {color: cyan;}
   100% {color: green;}
 }
 @-webkit-keyframes colorChange {
   0%   {color: red;}
   25%  {color: yellow;}
-  50%  {color: blue;}
+  50%  {color: cyan;}
   100% {color: green;}
 }
 @-moz-keyframes colorChange {
   0%   {color: red;}
   25%  {color: yellow;}
-  50%  {color: blue;}
+  50%  {color: cyan;}
   100% {color: green;}
 }
 @-o-keyframes colorChange {
   0%   {color: red;}
   25%  {color: yellow;}
-  50%  {color: blue;}
+  50%  {color: cyan;}
   100% {color: green;}
 }
 a {
@@ -82,7 +82,6 @@ a {
 }
 a:hover {
   text-decoration: none;
-  font-size: 16px;
   -webkit-animation: colorChange 5s infinite; /* Safari 4+ */
   -moz-animation:    colorChange 5s infinite; /* Fx 5+ */
   -o-animation:      colorChange 5s infinite; /* Opera 12+ */
