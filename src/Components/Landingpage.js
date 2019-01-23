@@ -16,7 +16,7 @@ class Landingpage extends Component {
             <i class="fab fa-github"></i>
           </a>
         </div>
-        </Jumbotron>
+      </Jumbotron>
     )
   }
 }

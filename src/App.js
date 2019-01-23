@@ -5,8 +5,6 @@ import Main from './Components/Main';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-
-
 class App extends Component {
   render() {
     return (
@@ -16,7 +14,7 @@ class App extends Component {
             <Navbar inverse collapseOnSelect fixedTop>
             <Navbar.Header>
               <Navbar.Brand>
-                <Link to="/">Allen Justin Blanco</Link>
+                <Link to="/">AJB</Link>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
