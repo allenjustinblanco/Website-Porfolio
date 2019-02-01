@@ -36,7 +36,7 @@ a.navbar-brand:hover {
   padding: 5px;
 }
 .Quicksand {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', serif;
 }
 .cursive {
   font-family: 'Charm', cursive;
