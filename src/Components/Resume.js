@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
+import { CSSTransitionGroup } from 'react-transition-group'
+import '../styles/ResumeStyle.css'
 
-class Resume extends Component {
-  render() {
+const Resume = () =>{
     return (
+      <CSSTransitionGroup
+      transitionName="resumeTransition"
+      transitionAppear={true}
+      transitionAppearTimeout={500}
+      transitionEnter={false}
+      transitionLeave={false}>
       <div>
-        <h1>Resume page</h1>
+        <h1>Resume Page</h1>
       </div>
+      </CSSTransitionGroup>
     )
-  }
 }
 
 export default Resume;
