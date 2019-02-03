@@ -14,7 +14,6 @@ h3.home {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   background-color: black;
-  border-radius: 100px;
   margin: auto;
   width: 45%;
 }
@@ -22,9 +21,6 @@ h1.home {
   color: black;
   font-family: 'Montserrat Subrayada';
   text-align: center;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 100px;
   margin: auto;
   margin-bottom: 5px;
   width: 50%;

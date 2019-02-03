@@ -71,6 +71,7 @@
 ul.navigation {
   text-align: center;
   border-radius: 100px;
+  margin-top: 20px;
 }
 .navigation {
   list-style: none;
@@ -87,6 +88,7 @@ ul.navigation {
   font-size: 14px;
   /* background-color: black; */
   padding: 1px 3px;
+
 }
 .navigation-link:hover {
   text-decoration: none;
@@ -97,4 +99,7 @@ ul.navigation {
   cursor: pointer;
   box-shadow: 1px 1px 3px 3px;
   font-weight: bold;
+}
+.navigation-link:active {
+  color: grey;
 }
