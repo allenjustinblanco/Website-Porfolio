@@ -1,0 +1,100 @@
+/* colorChange animation */
+@keyframes colorChange {
+  0%   {color: cyan;}
+  25%  {color: red;}
+  50%  {color: purple;}
+  100% {color: cyan;}
+}
+@-webkit-keyframes colorChange {
+  0%   {color: cyan;}
+  25%  {color: red;}
+  50%  {color: purple;}
+  100% {color: cyan;}
+}
+@-moz-keyframes colorChange {
+  0%   {color: cyan;}
+  25%  {color: red;}
+  50%  {color: purple;}
+  100% {color: cyan;}
+}
+@-o-keyframes colorChange {
+  0%   {color: cyan;}
+  25%  {color: red;}
+  50%  {color: purple;}
+  100% {color: cyan;}
+}
+/* colorChange animation */
+@keyframes backgroundColorChange {
+  0%   {background-color: cyan;}
+  25%  {background-color: red;}
+  50%  {background-color: purple;}
+  100% {background-color: cyan;}
+}
+@-webkit-keyframes backgroundColorChange {
+  0%   {background-color: cyan;}
+  25%  {background-color: red;}
+  50%  {background-color: purple;}
+  100% {background-color: cyan;}
+}
+@-moz-keyframes backgroundColorChange {
+  0%   {background-color: cyan;}
+  25%  {background-color: red;}
+  50%  {background-color: purple;}
+  100% {background-color: cyan;}
+}
+@-o-keyframes backgroundColorChange {
+  0%   {background-color: cyan;}
+  25%  {background-color: red;}
+  50%  {background-color: purple;}
+  100% {background-color: cyan;}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-20px);}
+}
+@-webkit-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-20px);}
+}
+@-moz-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-20px);}
+}
+@-o-keyframes bounce{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-20px);}
+}
+ul.navigation {
+  text-align: center;
+  border-radius: 100px;
+}
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation-link {
+  text-decoration: none;
+  border-bottom: none;
+  border-bottom: 1px solid $secondary;
+  color: white;
+  margin-right: 10px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  /* background-color: black; */
+  padding: 1px 3px;
+}
+.navigation-link:hover {
+  text-decoration: none;
+  -webkit-animation: colorChange 5s infinite; /* Safari 4+ */
+  -moz-animation:    colorChange 5s infinite; /* Fx 5+ */
+  -o-animation:      colorChange 5s infinite; /* Opera 12+ */
+  animation:         colorChange 5s infinite; /* IE 10+, Fx 29+ */
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 3px;
+  font-weight: bold;
+}
