@@ -22,6 +22,6 @@ const Menu = () =>{
       </NavLink>
     </ul>
   )
-}
+};
 
 export default Menu

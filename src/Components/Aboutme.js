@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/AboutMeStyle.css'
 
@@ -15,6 +15,6 @@ const AboutMe = () => {
           </div>
       </CSSTransitionGroup>
     )
-}
+};
 
 export default AboutMe;

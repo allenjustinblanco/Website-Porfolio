@@ -1,8 +1,4 @@
 body{
-  color: white;
-  background-image: url('../bg5.jpg');
-  background-size: cover;
-  background-position: center;
-  padding-bottom: 50vw;
   background-color: black;
+  background-image: url('../cubes.png');
 }

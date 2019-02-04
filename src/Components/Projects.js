@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/ProjectsStyle.css'
 
@@ -15,6 +15,6 @@ const Projects = () => {
           </div>
       </CSSTransitionGroup>
     )
-}
+};
 
 export default Projects;

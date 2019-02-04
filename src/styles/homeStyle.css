@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Montserrat+Subrayada|Raleway");
+
 .homePageTransition-appear{
   opacity: 0;
 }
@@ -19,11 +21,8 @@ h3.home {
 }
 h1.home {
   color: black;
-  font-family: 'Montserrat Subrayada';
+  font-family: 'Montserrat Subrayada', serif;
   text-align: center;
-  margin: auto;
-  margin-bottom: 5px;
-  width: 50%;
 }
 h1.home span:hover {
   -webkit-animation: colorChange 5s infinite; /* Safari 4+ */
@@ -31,4 +30,6 @@ h1.home span:hover {
   -o-animation:      colorChange 5s infinite; /* Opera 12+ */
   animation:         colorChange 5s infinite; /* IE 10+, Fx 29+ */
 }
-@import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Montserrat+Subrayada|Raleway");
+span {
+  background-color: white;
+}
