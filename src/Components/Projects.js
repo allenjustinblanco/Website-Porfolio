@@ -10,9 +10,9 @@ const Projects = () => {
         transitionAppearTimeout={500}
         transitionEnter={false}
         transitionLeave={false}>
-          <div>
-            <h1>Projects Page</h1>
-          </div>
+        <div>
+          <h1>Projects Page</h1>
+        </div>
       </CSSTransitionGroup>
     )
 };
