@@ -82,7 +82,7 @@ ul.navigation {
   color: black;
   font-family: 'Raleway',sans-serif;
   font-size: 15px;
-  padding: 6px 25px;
+  padding: 12px;
 }
 .navigation-link:hover {
   text-decoration: none;

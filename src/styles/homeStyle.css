@@ -8,9 +8,11 @@
   opacity: 1;
   transition: all .5s ease-in-out;
 }
+
 div.homeDiv {
   margin-top: 275px;
 }
+
 h3.home {
   color: white;
   text-align: center;
@@ -19,17 +21,20 @@ h3.home {
   margin: auto;
   width: 45%;
 }
+
 h1.home {
   color: black;
   font-family: 'Montserrat Subrayada', serif;
   text-align: center;
 }
+
 h1.home span:hover {
   -webkit-animation: colorChange 5s infinite; /* Safari 4+ */
   -moz-animation:    colorChange 5s infinite; /* Fx 5+ */
   -o-animation:      colorChange 5s infinite; /* Opera 12+ */
   animation:         colorChange 5s infinite; /* IE 10+, Fx 29+ */
 }
+
 span {
   background-color: white;
 }
