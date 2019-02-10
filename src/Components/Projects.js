@@ -5,7 +5,7 @@ import architecture from '../architecture.jpg'
 
 const imageStyle = {
     width: '100%',
-    height: '100px'
+    height: '300px'
 };
 
 const Projects = () => {
