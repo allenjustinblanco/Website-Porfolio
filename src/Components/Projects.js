@@ -45,13 +45,6 @@ const Projects = () => {
             <p>Architect & Engineer</p>
           </div>
         </div>
-        <div className="card">
-        <img src={architecture} alt="Avatar" style={imageStyle}/>
-          <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
-          </div>
-        </div>
         </div>
       </CSSTransitionGroup>
     )
