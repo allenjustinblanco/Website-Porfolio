@@ -2,6 +2,14 @@ import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/homeStyle.css'
 
+// const homeDivStyle = {
+//   h1Home: {
+//     color: 'black',
+//     fontFamily: 'Montserrat Subrayada', 'serif',
+//     textAlign: 'center'
+//   }
+// }
+
 const HomePage = () => {
     return (
       <CSSTransitionGroup
