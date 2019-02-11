@@ -5,7 +5,7 @@ import architecture from '../architecture.jpg'
 
 const imageStyle = {
     width: '100%',
-    height: '300px'
+    height: '250px'
 };
 
 const Projects = () => {
@@ -19,30 +19,27 @@ const Projects = () => {
         <div className="cards">
         <div className="card">
         <img src={architecture} alt="Avatar" style={imageStyle}/>
-          <div class="container">
+          <div className="container">
             <h4><b>Movie Application</b></h4>
-            <p>HTML5, CSS3, Javascript, Jquery, Ajax</p>
+            <p></p>
           </div>
         </div>
         <div className="card">
         <img src={architecture} alt="Avatar" style={imageStyle}/>
-          <div class="container">
+          <div className="container">
             <h4><b>Coffee Project</b></h4>
-            <p>HTML5, CSS3, Javascript, Jquery</p>
           </div>
         </div>
         <div className="card">
         <img src={architecture} alt="Avatar" style={imageStyle}/>
-          <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+          <div className="container">
+            <h4><b>Weather Application</b></h4>
           </div>
         </div>
         <div className="card">
         <img src={architecture} alt="Avatar" style={imageStyle}/>
-          <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+          <div className="container">
+            <h4><b>AdLister</b></h4>
           </div>
         </div>
         </div>
