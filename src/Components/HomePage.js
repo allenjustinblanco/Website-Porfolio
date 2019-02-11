@@ -1,6 +1,7 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/homeStyle.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 // const homeDivStyle = {
 //   h1Home: {
@@ -42,7 +43,11 @@ const HomePage = () => {
           <h3 className='home'>
             web developer, creative, entrepreneur
           </h3>
-        </div>
+          <div className="iconLink">
+          <a href="https://github.com/allenjustinblanco" className="icon" target="_blank"><FontAwesomeIcon icon="igloo"/></a>
+          <a href="https://github.com/allenjustinblanco" className="icon" target="_blank"><FontAwesomeIcon icon="igloo"/></a>
+          </div>
+          </div>
       </CSSTransitionGroup>
     )
 };

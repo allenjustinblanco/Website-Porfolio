@@ -9,6 +9,14 @@
   transition: all .5s ease-in-out;
 }
 
+.iconLink {
+  text-align: center;
+}
+
+.icon {
+  margin: 4px;
+}
+
 div.homeDiv {
   margin-top: 275px;
 }

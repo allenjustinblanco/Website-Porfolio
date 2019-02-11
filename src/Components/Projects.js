@@ -21,7 +21,6 @@ const Projects = () => {
         <img src={architecture} alt="Avatar" style={imageStyle}/>
           <div className="container">
             <h4><b>Movie Application</b></h4>
-            <p></p>
           </div>
         </div>
         <div className="card">
