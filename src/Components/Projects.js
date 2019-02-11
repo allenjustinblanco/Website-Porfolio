@@ -1,7 +1,7 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group'
 import '../styles/ProjectsStyle.css'
-import architecture from '../architecture.jpg'
+import architecture from '../bg3.jpg'
 
 const imageStyle = {
     width: '100%',

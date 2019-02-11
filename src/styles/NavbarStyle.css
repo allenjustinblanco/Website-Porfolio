@@ -70,7 +70,7 @@
 }
 ul.navigation {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 .navigation {
   list-style: none;
@@ -82,7 +82,7 @@ ul.navigation {
   color: black;
   font-family: 'Raleway',sans-serif;
   font-size: 15px;
-  padding: 12px;
+  padding: 10px;
 }
 .navigation-link:hover {
   text-decoration: none;
